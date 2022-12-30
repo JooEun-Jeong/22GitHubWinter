@@ -15,7 +15,7 @@ int mergeSort(int str, int en)
     // nlogn의 시간복잡도를 가져야 합니다.
 }
 
-int binary_search(int target)
+int binarySearch(int target)
 {
     int ok = 0;
 
@@ -59,7 +59,7 @@ int main()
         int target, ok = 0;
         scanf("%d", &target);
         // process 2 : 해당 변수가 inputArray에 존재하는지 확인합니다.
-        ok = binary_search(target);
+        ok = binarySearch(target);
         printf("%d\n", ok);
     }
     return 0;
