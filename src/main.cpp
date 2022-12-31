@@ -21,7 +21,31 @@ int binarySearch(int target)
 
     // Write Here
     // 이진탐색을 통해 target 변수가 inputArray 에 있는지 확인해주세요.
-    // 있는 경우 Ok = 1, 없는 경우 ok = 0 입니다.
+    // 있는 경우 ok = 1, 없는 경우 ok = 0 입니다.
+
+    int size = (sizeof(inputArray) / sizeof(*inputArray)); // size of inputArray
+    int start = 0;                                         // 시작 index
+    int end = size - 1;                                    // 끝 index
+    int middle;                                            // 중간 index
+
+    while (start <= end)
+    {
+        middle = (start + end) / 2;     // 배열 중간 index 계산
+        int datum = inputArray[middle]; // 배열 중간에 위치해있는 데이터
+        if (datum == target)
+        { // target이 배열에 존재하는 경우
+            ok = 1;
+            break;
+        }
+        else if (datum > target)
+        {
+            end = middle - 1;
+        }
+        else
+        {
+            start = middle + 1;
+        }
+    }
 
     return ok;
 }
