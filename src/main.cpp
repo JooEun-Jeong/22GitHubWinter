@@ -13,6 +13,43 @@ int mergeSort(int str, int en)
     // Write Here
     // inputArray를 오름차순으로 정리해주세요.
     // nlogn의 시간복잡도를 가져야 합니다.
+    
+    int mid, lcur, rcur, tcur;
+
+    if(en - str >= 2)
+    {
+        mid = (str + en) / 2;   // middle of list
+        mergeSort(str, mid);    // mergeSort left-side list
+        mergeSort(mid, en);     // mergeSort right-side list
+        lcur = str;             // current index of left-side list
+        rcur = mid;             // current index of right-side list
+        tcur = 0;               // current index of temp (result)
+        for(int i=0;i<en - str;i++) // merge process
+        {
+            if(lcur < mid && rcur < en)
+            {
+                if(inputArray[lcur] <= inputArray[rcur])
+                    temp[tcur++] = inputArray[lcur++];
+                else
+                    temp[tcur++] = inputArray[rcur++];
+            }
+            else if(lcur < mid)
+                temp[tcur++] = inputArray[lcur++];
+            else
+                temp[tcur++] = inputArray[rcur++];
+        }
+        for(int i=0;i<en - str;i++) // Copy result to inputArray from temp (result) array
+        {
+            inputArray[str + i] = temp[i];
+        }
+
+    }
+    else
+    {
+        return 0;
+    }
+
+
 }
 
 int binarySearch(int target)
