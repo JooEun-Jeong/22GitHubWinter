@@ -52,7 +52,7 @@ int mergeSort(int str, int en)
 
 }
 
-int binarySearch(int target)
+int binarySearch(int target, int size)
 {
     int ok = 0;
 
@@ -60,7 +60,7 @@ int binarySearch(int target)
     // 이진탐색을 통해 target 변수가 inputArray 에 있는지 확인해주세요.
     // 있는 경우 ok = 1, 없는 경우 ok = 0 입니다.
 
-    int size = (sizeof(inputArray) / sizeof(*inputArray)); // size of inputArray
+    // int size = (sizeof(inputArray) / sizeof(*inputArray)); // size of inputArray
     int start = 0;                                         // 시작 index
     int end = size - 1;                                    // 끝 index
     int middle;                                            // 중간 index
@@ -120,7 +120,7 @@ int main()
         int target, ok = 0;
         scanf("%d", &target);
         // process 2 : 해당 변수가 inputArray에 존재하는지 확인합니다.
-        ok = binarySearch(target);
+        ok = binarySearch(target, N);
         printf("%d\n", ok);
     }
     return 0;
