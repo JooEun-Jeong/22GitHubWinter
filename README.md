@@ -10,11 +10,11 @@
 
 ## Contributors
 
-- DivisonOfficer(소프트웨어학과 김진녕)
+- 소프트웨어학과 김진녕 DivisonOfficer
   - main.cpp skeletion code 및 .gitignore 작성
-- 소프트웨어학과 정승혁
+- 소프트웨어학과 정승혁 meltingOcean
   - mergeSort 작성
-- 소프트웨어학과 정주은
+- 소프트웨어학과 정주은 JooEun-Jeong
   - binarySearch 및 README 작성
 
 ## Link
