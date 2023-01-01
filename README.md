@@ -1,4 +1,4 @@
-# 22GitHubWinter - Assignment1
+# Week1-GitHubClass-SKG - Assignment1
 
 ## Description
 
