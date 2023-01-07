@@ -1,4 +1,5 @@
-README_FILE = ".\.song.md"
+#!/bin/bash
+README_FILE="../song.md"
 
 touch $README_FILE
 
@@ -8,7 +9,7 @@ git commit -m "README 파일을 생성합니다."
 
 echo "우리 모두 다같이 손뼉을" >> $README_FILE
 echo "" >> $README_FILE
-echo "![poster](.\.resource/image.png)" >> $README_FILE
+echo "![poster](resource/image.png)" >> $README_FILE
 echo "" >> $README_FILE
 
 
