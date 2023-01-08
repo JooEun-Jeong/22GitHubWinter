@@ -19,4 +19,3 @@
 우리 모두 다같이 발굴러(쿵쿵)
 
 ![koong](resource/koong.png)
-
