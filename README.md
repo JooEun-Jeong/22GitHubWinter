@@ -18,6 +18,3 @@
 
 https://github.com/JooEun-Jeong/22GitHubWinter
 
-## Cover Image
-
-
