@@ -1,5 +1,5 @@
 #!/bin/bash
-README_FILE="song.md"
+README_FILE="../song.md"
 
 touch $README_FILE
 
