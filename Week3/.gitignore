@@ -2,3 +2,4 @@ main
 main.dSYM
 *.class
 *.out
+node_modules
