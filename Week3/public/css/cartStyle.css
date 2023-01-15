@@ -1,0 +1,35 @@
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#title{
+  text-align: center;
+}
+#title h2{
+  font-weight: bold;
+}
+
+#content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form table tr td{
+  padding-top: 1%;
+}
+
+#selected{
+  margin-left: 5%;
+}
+
+.right{
+  text-align: right;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.full{
+  width: 100%;
+}
