@@ -1,0 +1,15 @@
+{
+  "name": "toda11as-shopping-app",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.17.1"
+  },
+  "description": "## Description 이 과제를 통해 다음 목표들을 수행합니다. > 1. HTML, Bootstrap, Javascript, NodeJS를 이용해 웹페이지를 만든다.   > 2. 도커 컨테이너와 깃허브 패키지를 사용한다.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
