@@ -1,5 +1,5 @@
 {
-  "name": "week3-webapp-container",
+  "name": "toda11as-shopping-app",
   "scripts": {
     "start": "node index.js"
   },
