@@ -13,4 +13,4 @@
 
 ## Link
 
-https://github.com/JooEun-Jeong/22GitHubWinter/Week3
+https://github.com/JooEun-Jeong/22GitHubWinter/tree/main/Week3
