@@ -14,3 +14,6 @@
 ## Link
 
 https://github.com/JooEun-Jeong/22GitHubWinter/tree/main/Week3
+
+## package 푸시 위치:
+https://github.com/users/JooEun-Jeong/packages/container/package/toda11as-shopping-app
