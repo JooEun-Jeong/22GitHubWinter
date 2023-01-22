@@ -1,12 +1,7 @@
-타이틀 (각 아이디어 마다 ## 헤더로 표시 합니다)
-제출 형식 (깃허브 액션, 깃허브 앱, 깃허브 CLI extension, 웹앱 with GitHub Action)
-설명 (어떤 문제를 해결 할려고 했으며 어떻게 구현할건지 설명합니다)
-필요한 테크 스택
 
-## 
+## Docker Auto releaser by SSH
 
 ## GitHub action
-
 
 ## 설명
 - 유용한 엑션을 만들어서 마켓플레이스에 게시하면 좋겠습니다.
